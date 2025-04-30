@@ -11,7 +11,7 @@ export default function App() {
     <>
       <h1>List of Learners:</h1>
       {learnerData.learners.map((learner, index) => (
-        <Learner key={index} learner={learner} />
+        <Learner key={learner.name} learner={learner} />
       ))}
     </>
   );
