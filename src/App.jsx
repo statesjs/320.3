@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Learner from "./components/learner";
+import Learner from "./components/Learner";
 import learnerDatas from "./data/learnerData";
 
 export default function App() {
