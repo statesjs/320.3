@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import "./App.css";
 import Learner from "./components/learner";
 import learnerDatas from "./data/learnerData";
